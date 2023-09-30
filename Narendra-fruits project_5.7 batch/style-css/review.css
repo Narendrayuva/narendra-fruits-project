@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500&display=swap');
+body{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* head logo */
+
+.header-mast{
+    display: flex;
+}
+.head-div{
+    margin: 8px 0px 0px 146px;
+}
+.head-tit{
+    text-decoration: none;
+    color: blue;
+}
+#head-lo{
+    color: darkorange;
+}
+div{
+    flex: 1;
+}
+
+/* navigation css */
+.head-menu-ul{
+    display: grid;
+	grid-template-columns: repeat(6, 1fr);
+    list-style: none;
+	margin: 30px 192px 0px 49px;
+}
+.head-menu-ul li a{
+    text-decoration: none;
+    color: rgb(67, 67, 67);
+}
+.head-menu-ul li a:hover{
+    color: orange;
+}
+.head-menu-ul li{
+    padding: 10px 10px;
+    font-size: 17px;
+}
+
+/* icons */
+.icons{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+#ic-1{
+    border: 1px solid rgb(198, 195, 195);
+    background-color: rgb(198, 195, 195);
+    padding: 7px;
+    border-radius: 4px;
+    margin: 1px;
+}
+/* header css ends */
+
+/* Customer's Review */
+#customer-bor{
+    border: 1px solid;
+    margin: 10px 10px 10px 10px;
+}
+.bg-review{
+    background-color: rgb(244, 244, 244);
+    padding: 50px 40px 50px 40px;
+}
+
+.our-products{
+    text-align: center;
+}
+
+.clip{
+    background-color: orange;
+    width: 150px;
+    padding: 4px 35px;
+    text-align: center;
+    margin: auto;
+    clip-path: polygon(100% 0%, 92% 50%, 100% 100%, 0% 100%, 10% 50%, 0% 0%);
+    color:white;
+    font-size: 25px;
+}
+.customer-review-container1{
+    height:370px;
+    width:370px;
+    margin-left:140px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.customer-review-container2{
+    height:370px;
+    width:370px;
+    margin-left:25px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.customer-review-container3{
+    height:370px;
+    width:370px;
+    margin-left:-50px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.customer-img{
+    border-radius: 50%;
+    height:100px;
+    width:100px;
+    margin-top:20px;
+}
+.customer-p{
+    color:rgb(78, 77, 77);
+}
+.star-icons1{
+    color:rgb(244, 107, 57);
+    margin-top:-11px;
+    margin-bottom: 5px;
+ }
+ .customer{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px 0px 20px 0px;
+ }
+/* Customer's Review end */
+
+
+/* Footer */
+
+.aciversit-logo1{
+    font-size: 20px;
+    font-weight: bolder;
+}
+#basket-icon1{
+    color: darkorange;
+}
+#footer-icons{
+    border: 1px solid rgb(223, 221, 221);
+    background-color: rgb(227, 226, 226);
+    padding: 7px;
+    border-radius: 4px;
+    margin: 1px;
+
+}
+#foot-it{
+    color: darkorange;
+}
+#foot-ach{
+    color:rgb(28, 28, 246)
+
+}
+.footer{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.footer-container1{
+    margin:40px 0px 0px 110px;
+  
+}
+.footer-container2{
+    margin: 20px 0px 0px 70px;
+}
+.footer-container3{
+    margin: 20px 0px 0px 45px;
+}
+.footer-container4{
+   margin:20px 0px 0px -55px;
+}
+.footer-container1-text{
+    font-weight: normal;
+    font-size: 15px;
+
+}
+#contact-info{
+    color:rgb(20, 20, 240);
+    font-size: 23px;
+
+}
+.fa-arrow-right{
+    color: darkorange;
+    
+}
+.footer-container3 a{
+    text-decoration: none;
+    color:rgb(68, 66, 66);
+}
+.fa-phone-flip, .fa-envelope, .fa-location-dot{
+    color:darkorange;
+}
+.input{
+    padding:14px;
+    width:250px;
+    background-color:rgb(232, 229, 229);
+    border:none;
+    border-radius: 4px;
+}
+::placeholder{
+    color:rgb(96, 94, 94);
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.read-more-btn{
+    background-color: transparent;
+    padding:10px;
+    width:150px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.footer-container4 img{
+    height: 30px;
+    width: 275px;
+}
+/* sub-footer */
+.sub-foot{
+    text-align: center;
+}
+.sub-span{
+    color: darkorange;
+}
+/* sub-footer end */
+
+/* media */
+ @media only screen and (min-width:768px) and (max-width:1024px){
+   .footer{
+    grid-template-columns: repeat(3, 1fr);
+
+    } 
+    .footer-container4{
+        margin-left:100px;
+    }
+ }
+ @media only screen and (min-width:562px) and (max-width:768px){
+    .footer{
+        grid-template-columns: repeat(2, 1fr);
+        } 
+        .footer-container3{
+            margin-left:100px;
+        }
+        .footer-container4{
+            margin-left:70px;
+        }
+ }
+ @media only screen and (min-width:360px) and (max-width:562px){
+    .footer{
+        grid-template-columns: repeat(1, 3fr);
+        font-size: 20px;
+        
+        } 
+        .footer-container3{
+            margin-left:100px;
+        }
+        .footer-container4{
+            margin-left:100px;
+        }
+        .footer-container2{
+            margin-left:100px;
+        }
+ }
+ @media only screen and (max-width:360px){
+    .footer{
+        grid-template-columns: repeat(1, 3fr);
+        font-size: 30px;
+        
+        } 
+        .footer-container3{
+            margin-left:100px;
+        }
+        .footer-container4{
+            margin-left:100px;
+        }
+        .footer-container2{
+            margin-left:100px;
+        }
+ }
+
+
+/*Customer's Review*/
+@media only screen and (min-width:1200px) and (max-width:1326px)
+{
+    .bg-review{
+        grid-template-columns: repeat(3,1fr);
+        gap: 1rem;
+        margin: 0% 8%;
+        
+    }
+        
+}
+@media only screen and (min-width:1024px) and (max-width:1200px)
+{
+    .bg-review{
+        grid-template-columns: repeat(2,1fr);
+        gap: 3rem;
+        margin: 0% 15%;
+    }
+        
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px)
+{
+    .bg-review{
+        grid-template-columns: repeat(2,1fr);
+        gap: 1rem;
+        margin: 1% 5%;
+    }
+        
+
+}
+@media only screen and (min-width:562px) and (max-width:768px)
+{
+    .bg-review{
+        grid-template-columns: repeat(1,1fr);
+        margin: 1% 24%;
+    }
+        
+}
+@media only screen and (min-width:360px) and (max-width:562px)
+{
+    .bg-review{
+        grid-template-columns: repeat(1,1fr);
+        margin: 1% 14%;
+    }
+        
+}

@@ -1,0 +1,75 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.mandatory {
+  color: red;
+}
+.facebook,.google {
+  width: 50px;
+  height: 50px;
+}
+a .twitter {
+  height: 33px;
+  width: 35px;
+  position: relative;
+  top: -8px;
+  left: 4px;
+}
+h2 {
+  margin: 0px 0px 0px 60px;
+  font-size: 28px;
+}
+.textlabel {
+  font-size: 20px;
+}
+.container {
+  border: 1px solid black;
+  width: 450px;
+  padding: 70px;
+  position: relative;
+  top: 100px;
+  left: 500px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px black;
+}
+#username,#password {
+  padding: 8px;
+  width: 300px;
+}
+#forgot {
+  margin: 10px 0px 0px 170px;
+}
+#forgot a {
+  text-decoration: none;
+}
+#login {
+  margin: 30px 0px 0px 0px;
+  border-radius: 50px;
+  width: 290px;
+  padding: 7px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+  background: blue;
+}
+.sign {
+  margin: 20px 0px 0px 100px;
+}
+.icons {
+  margin: 20px 0px 0px 70px;
+}
+.signup {
+  margin: 20px 0px 0px 120px;
+}
+.signup a {
+  text-decoration: none;
+  color: dimgray;
+}
+.error {
+  color: red;
+  display: none;
+}

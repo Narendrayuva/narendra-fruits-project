@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation in Js</title>
+    <link rel="stylesheet" href="./style-css/form-validation.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Login Form</h2>
+      <br />
+      <form action="#">
+        <label class="textlabel" for="username"
+          >Username:<span class="mandatory">*</span></label
+        ><br /><br />
+        <input
+          type="email"
+          name="Email"
+          id="username"
+          placeholder="Enter the Username"
+        />
+        <span class="error" id="eErr">Please enter the username</span
+        ><br /><br />
+
+        <label class="textlabel" for="password"
+          >Password:<span class="mandatory">*</span></label
+        ><br /><br />
+        <input
+          type="password"
+          name="psw"
+          id="password"
+          placeholder="Enter the password"
+        />
+        <span class="error" id="pErr">Please enter the password</span>
+
+        <p id="forgot"><a href="#"> Forgot Password ?</a></p>
+        <input type="button" name="btn" value="Login" id="login" />
+
+        <p class="sign">or Sign Up Using</p>
+        <div class="icons">
+          <a href="#"
+            ><img class="facebook" src="./assests/facebook.jpg" alt="facebook"
+          /></a>
+          <a href="#"
+            ><img class="google" src="./assests/google.jpg" alt="Google"
+          /></a>
+          <a href="#"
+            ><img class="twitter" src="./assests/twitter2.png" alt="fa-twitter"
+          /></a>
+        </div>
+        <p class="sign">or Sign up Using</p>
+        <p class="signup"><a href="#"> SIGN UP</a></p>
+      </form>
+    </div>
+
+    <script src="./javascript/script.js"></script>
+  </body>
+</html>
