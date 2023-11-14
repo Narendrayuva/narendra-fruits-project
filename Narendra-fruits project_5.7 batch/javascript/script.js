@@ -15,6 +15,6 @@ document.getElementById("login").addEventListener("click", function () {
   }
 
   if (email !== "" && pswd !== "") {
-    alert("Login successfully");
+    alert("Login successfully.");
   }
 });
